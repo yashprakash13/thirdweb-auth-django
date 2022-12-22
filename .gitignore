@@ -306,7 +306,7 @@ flycheck_*.el
 
 # Icon must end with two \r
 Icon
-.python-version
+# .python-version
 
 # Thumbnails
 ._*
