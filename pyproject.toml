@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "thirdweb-auth-django"
+version = "0.1.0"
+description = ""
+authors = ["Yash Prakash <yashprakash13@gmail.com>"]
+readme = "README.md"
+packages = [{include = "thirdweb_auth_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.4"
+django-environ = "^0.9.0"
+python-dotenv = "^0.21.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+djhtml = "^1.5.2"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
