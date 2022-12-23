@@ -1,4 +1,4 @@
-# A Django Framework Integration for Auth in Thirdweb
+# A Django Framework Integration for Wallet Auth in Thirdweb
 
 Based on documentation available for other frameworks here: https://portal.thirdweb.com/auth
 
@@ -7,7 +7,7 @@ Based on documentation available for other frameworks here: https://portal.third
 
 ## Setup
 
-To setup the frontend: 
+### To setup the frontend: 
 
 ```bash
 $ cd thirdweb-auth-django 
@@ -15,14 +15,21 @@ $ make web-build
 $ make web-run
 ```
 
-To setup the backend: 
-
+###  To setup the backend: 
+First create a python virtual environment: 
 ```bash
-$ make server-build
+python -m venv venv
+```
+
+Then install the dependencies: 
+```bash
+$ pip install -r requirements.txt
+```
+
+Finally, run the server:
+```bash
 $ make server-run
 ```
 
-Then navigate to https://localhost:3000 to interact with the app!
-
-
+Then simply navigate to https://localhost:3000 to interact with the app!
 
